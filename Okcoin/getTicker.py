@@ -7,6 +7,8 @@ class getTicker():
         r = requests.get(url)
         response = r.json()
 
+        return response
+
 
 
 
